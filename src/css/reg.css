@@ -1,0 +1,396 @@
+@charset "utf-8";
+/*CSS Document*/
+* {
+  margin: 0;
+  padding: 0;
+}
+a {
+  text-decoration: none;
+}
+li {
+  list-style: none;
+}
+img {
+  vertical-align: middle;
+}
+/*--------------header------------------*/
+.header {
+  height: 38.4px;
+  background: rgba(0, 0, 0, 0.05);
+}
+.header .header-center {
+  line-height: 38.4px;
+  width: auto;
+  max-width: 960px;
+  height: 100%;
+  margin: 0 auto;
+}
+.header .header-center img {
+  height: 19.2px;
+  width: 108px;
+  margin: 0;
+  padding: 0;
+}
+.header .header-center b {
+  font-size: 12.8px;
+}
+.content {
+  width: 100%;
+  height: 100%;
+  min-height: 700px;
+  height: calc(100% - 155px);
+}
+.content .content-center {
+  margin: 0 auto;
+  background: #fff;
+  width: 960px;
+}
+.content .content-center .center-left {
+  float: left;
+  width: 192px;
+  margin-top: 32px;
+  font-size: 11.2px;
+  line-height: 1;
+}
+.content .content-center .center-left .phone {
+  padding: 12.8px;
+  border-radius: 6.4px;
+  cursor: pointer !important;
+  width: 100%;
+  background: rgba(0, 0, 0, 0.05);
+  display: inline-flex;
+  align-items: center;
+}
+.content .content-center .center-left .phone span {
+  margin-left: 24px;
+  margin-right: 5px;
+}
+.content .content-center .center-left .phone p {
+  display: inline-block;
+  text-align: left;
+}
+.content .content-center .center-left .email {
+  padding: 12.8px;
+  border-radius: 6.4px;
+  cursor: pointer !important;
+  width: 100%;
+  display: inline-flex;
+  align-items: center;
+}
+.content .content-center .center-left .email span {
+  margin-left: 24px;
+  margin-right: 5px;
+}
+.content .content-center .center-left .email p {
+  display: inline-block;
+  text-align: left;
+}
+.content .content-center .center-right {
+  float: left;
+  margin: 0 auto;
+  padding-top: 48px;
+  padding-left: 108px;
+  /*--------------chooseCountry------------------*/
+  /*--------------phoneInput------------------*/
+  /*---------msg-input------------*/
+  /*-------------password------------------*/
+  /*-------------password2------------------*/
+  /*-------------出生日期------------------*/
+  /*-------------提交按钮------------------*/
+}
+.content .content-center .center-right h1 {
+  font-size: 25.6px;
+  color: #191919;
+  font-weight: normal;
+  text-align: center;
+}
+.content .content-center .center-right h2 {
+  font-weight: normal;
+  font-size: 14.4px;
+  text-align: center;
+  margin-top: 3px;
+}
+.content .content-center .center-right h2 a {
+  cursor: pointer;
+  color: #007dff;
+}
+.content .content-center .center-right .chooseCountry {
+  margin-top: 48px;
+  background: rgba(0, 0, 0, 0.05);
+  border-radius: 6.4px;
+  border: 1ps solid transparent;
+  width: 354px;
+  height: 38.4px;
+  /*左边输入*/
+  /*右边输入*/
+}
+.content .content-center .center-right .chooseCountry .input-left {
+  float: left;
+  border-right: 0;
+  padding: 0 12.8px;
+  height: 100%;
+  line-height: 38.4px;
+}
+.content .content-center .center-right .chooseCountry .input-left span {
+  font-size: 12px;
+  line-height: 1.3;
+  text-align: left;
+}
+.content .content-center .center-right .chooseCountry .input-right {
+  float: right;
+  line-height: 38.4px;
+}
+.content .content-center .center-right .chooseCountry .input-right span {
+  float: left;
+  font-size: 12px;
+}
+.content .content-center .center-right .chooseCountry .input-right .container {
+  float: left;
+  width: 0;
+  height: 0;
+  border: 5px solid;
+  margin: 15px 10px 0 5px;
+  border-color: black transparent transparent transparent;
+}
+.content .content-center .center-right .phoneInput {
+  margin-top: 20px;
+  background: rgba(0, 0, 0, 0.05);
+  border-radius: 6.4px;
+  border: 1ps solid transparent;
+  width: 354px;
+  height: 38.4px;
+}
+.content .content-center .center-right .phoneInput .input-left {
+  float: left;
+  line-height: 38.4px;
+  padding: 0 12.8px;
+}
+.content .content-center .center-right .phoneInput .input-left span {
+  float: left;
+  font-size: 12px;
+}
+.content .content-center .center-right .phoneInput .input-left .container {
+  float: left;
+  width: 0;
+  height: 0;
+  border: 5px solid;
+  margin: 17px 10px 0 5px;
+  border-color: black transparent transparent transparent;
+}
+.content .content-center .center-right .phoneInput .input-left .shu {
+  font-size: 20px;
+  font-style: normal;
+  font-weight: 200;
+  color: rgba(0, 0, 0, 0.1);
+  margin: 0 8px;
+}
+.content .content-center .center-right .phoneInput .input-right {
+  height: 100%;
+  overflow: hidden;
+  height: 38.4px;
+}
+.content .content-center .center-right .phoneInput .input-right input {
+  border: none;
+  outline: none;
+  background: transparent;
+  line-height: 38.4px;
+  font-size: 12px;
+}
+.content .content-center .center-right .msg-input {
+  margin-top: 20px;
+  background: rgba(0, 0, 0, 0.05);
+  border-radius: 6.4px;
+  border: 1ps solid transparent;
+  width: 354px;
+  height: 38.4px;
+}
+.content .content-center .center-right .msg-input .input-left {
+  float: left;
+  line-height: 38.4px;
+  padding: 0 12.8px;
+  overflow: hidden;
+}
+.content .content-center .center-right .msg-input .input-left input {
+  border: none;
+  outline: none;
+  background: transparent;
+  line-height: 38.4px;
+  font-size: 12px;
+}
+.content .content-center .center-right .msg-input .input-right {
+  height: 38.4px;
+  float: right;
+}
+.content .content-center .center-right .msg-input .input-right span {
+  line-height: 38.4px;
+  margin-right: 12.8px;
+  cursor: default!important;
+  color: #007dff;
+  font-size: 12px;
+  opacity: 0.38;
+}
+.content .content-center .center-right .password-input {
+  margin-top: 20px;
+  background: rgba(0, 0, 0, 0.05);
+  border-radius: 6.4px;
+  border: 1ps solid transparent;
+  width: 354px;
+  height: 38.4px;
+}
+.content .content-center .center-right .password-input .input-left {
+  float: left;
+  line-height: 38.4px;
+  padding: 0 12.8px;
+  overflow: hidden;
+}
+.content .content-center .center-right .password-input .input-left input {
+  border: none;
+  outline: none;
+  background: transparent;
+  line-height: 38.4px;
+  font-size: 12px;
+}
+.content .content-center .center-right .password-input .input-right {
+  height: 38.4px;
+  float: right;
+  display: flex;
+  align-items: center;
+}
+.content .content-center .center-right .password-input .input-right img {
+  width: 19.2px;
+  height: 19.2px;
+  padding: 0 12.8px;
+  vertical-align: middle;
+}
+.content .content-center .center-right .password2-input {
+  margin-top: 20px;
+  background: rgba(0, 0, 0, 0.05);
+  border-radius: 6.4px;
+  border: 1ps solid transparent;
+  width: 354px;
+  height: 38.4px;
+}
+.content .content-center .center-right .password2-input .input-left {
+  float: left;
+  line-height: 38.4px;
+  padding: 0 12.8px;
+  overflow: hidden;
+}
+.content .content-center .center-right .password2-input .input-left input {
+  border: none;
+  outline: none;
+  background: transparent;
+  line-height: 38.4px;
+  font-size: 12px;
+}
+.content .content-center .center-right .password2-input .input-right {
+  height: 38.4px;
+  float: right;
+  display: flex;
+  align-items: center;
+}
+.content .content-center .center-right .password2-input .input-right img {
+  width: 19.2px;
+  height: 19.2px;
+  padding: 0 12.8px;
+  vertical-align: middle;
+}
+.content .content-center .center-right .birthDate {
+  margin-top: 20px;
+  background: rgba(0, 0, 0, 0.05);
+  border-radius: 6.4px;
+  border: 1ps solid transparent;
+  width: 354px;
+  height: 38.4px;
+}
+.content .content-center .center-right .birthDate .input-left {
+  float: left;
+  line-height: 38.4px;
+  padding: 0 12.8px;
+}
+.content .content-center .center-right .birthDate .input-left span {
+  font-size: 12px;
+}
+.content .content-center .center-right .birthDate .input-right {
+  height: 38.4px;
+  float: right;
+}
+.content .content-center .center-right .birthDate .input-right span {
+  float: left;
+  font-size: 12px;
+  line-height: 38.4px;
+}
+.content .content-center .center-right .birthDate .input-right .container {
+  float: left;
+  width: 0;
+  height: 0;
+  border: 4px solid;
+  margin: 17px 12px 0 6px;
+  border-color: black transparent transparent transparent;
+}
+.content .content-center .center-right #btnSubmit {
+  margin-top: 40px;
+  background: #007dff;
+  opacity: 0.38;
+  border-radius: 6.4px;
+  border: 1ps solid transparent;
+  width: 244px;
+  height: 38.4px;
+  cursor: default;
+  color: #fff;
+  font-size: 14.4px;
+  font-weight: 400;
+  text-transform: uppercase;
+}
+/*--------------footer------------------*/
+.footer {
+  height: 88px;
+  background: rgba(0, 0, 0, 0.05);
+}
+.footer .footer-center {
+  line-height: 88px;
+  margin: 0 auto;
+}
+.footer .footer-center .footer-center-p1 {
+  text-align: center;
+  line-height: 20px;
+  height: 20px;
+  font-size: 11.2px;
+  color: #000;
+  opacity: 1;
+  padding-top: 20px;
+}
+.footer .footer-center .footer-center-p1 a {
+  color: #000;
+}
+.footer .footer-center .footer-center-p1 a:hover {
+  text-decoration: underline;
+}
+.footer .footer-center .footer-center-p1 .a3 {
+  padding: 0 10px;
+}
+.footer .footer-center .footer-center-p1 em {
+  font-size: 12.8px;
+  font-style: normal;
+  font-weight: 400;
+  color: rgba(0, 0, 0, 0.1);
+}
+.footer .footer-center .footer-center-p1 span {
+  text-align: center;
+  height: 20px;
+  line-height: 20px;
+}
+.footer .footer-center .footer-center-p1 span .foot_em {
+  padding: 0;
+  margin: 0;
+}
+.footer .footer-center .footer-center-p2 {
+  text-align: center;
+  color: #000;
+  opacity: 0.3;
+  font-size: 11.2px;
+  padding: 0;
+  margin: 11.2px 0;
+  height: 10.67px;
+  line-height: 10.67px;
+}

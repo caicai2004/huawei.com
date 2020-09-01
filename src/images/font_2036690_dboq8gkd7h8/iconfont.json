@@ -1,0 +1,23 @@
+{
+  "id": "2036690",
+  "name": "Iconfont",
+  "font_family": "iconfont",
+  "css_prefix_text": "icon-",
+  "description": "",
+  "glyphs": [
+    {
+      "icon_id": "705708",
+      "name": "手机",
+      "font_class": "shouji",
+      "unicode": "e632",
+      "unicode_decimal": 58930
+    },
+    {
+      "icon_id": "6186661",
+      "name": "邮箱",
+      "font_class": "youxiang",
+      "unicode": "e664",
+      "unicode_decimal": 58980
+    }
+  ]
+}
