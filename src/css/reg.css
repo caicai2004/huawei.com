@@ -88,8 +88,9 @@ img {
 .content .content-center .center-right {
   float: left;
   margin: 0 auto;
-  padding-top: 48px;
-  padding-left: 108px;
+  width: 582px;
+  margin-top: 48px;
+  margin-left: 108px;
   /*--------------chooseCountry------------------*/
   /*--------------phoneInput------------------*/
   /*---------msg-input------------*/
@@ -99,12 +100,14 @@ img {
   /*-------------提交按钮------------------*/
 }
 .content .content-center .center-right h1 {
+  width: 354px;
   font-size: 25.6px;
   color: #191919;
   font-weight: normal;
   text-align: center;
 }
 .content .content-center .center-right h2 {
+  width: 354px;
   font-weight: normal;
   font-size: 14.4px;
   text-align: center;
@@ -115,12 +118,14 @@ img {
   color: #007dff;
 }
 .content .content-center .center-right .chooseCountry {
-  margin-top: 48px;
+  margin-top: 50px;
   background: rgba(0, 0, 0, 0.05);
   border-radius: 6.4px;
   border: 1ps solid transparent;
   width: 354px;
   height: 38.4px;
+  display: inline-block;
+  vertical-align: middle;
   /*左边输入*/
   /*右边输入*/
 }
@@ -152,13 +157,23 @@ img {
   margin: 15px 10px 0 5px;
   border-color: black transparent transparent transparent;
 }
+.content .content-center .center-right .Country {
+  display: inline-block;
+  margin-top: 40px;
+  width: 100px;
+  height: 38.4px;
+  line-height: 38.4px;
+  vertical-align: middle;
+}
 .content .content-center .center-right .phoneInput {
-  margin-top: 20px;
   background: rgba(0, 0, 0, 0.05);
   border-radius: 6.4px;
   border: 1ps solid transparent;
   width: 354px;
   height: 38.4px;
+  display: inline-block;
+  vertical-align: middle;
+  margin-top: 20px;
 }
 .content .content-center .center-right .phoneInput .input-left {
   float: left;
@@ -196,13 +211,27 @@ img {
   line-height: 38.4px;
   font-size: 12px;
 }
-.content .content-center .center-right .msg-input {
+.content .content-center .center-right .phoneInput .input-right .phone {
+  clear: both;
+  float: left;
+}
+.content .content-center .center-right .phone {
+  display: inline-block;
   margin-top: 20px;
+  width: 100px;
+  height: 38.4px;
+  line-height: 38.4px;
+  vertical-align: middle;
+}
+.content .content-center .center-right .msg-input {
   background: rgba(0, 0, 0, 0.05);
   border-radius: 6.4px;
   border: 1ps solid transparent;
   width: 354px;
   height: 38.4px;
+  display: inline-block;
+  vertical-align: middle;
+  margin-top: 20px;
 }
 .content .content-center .center-right .msg-input .input-left {
   float: left;
@@ -229,13 +258,23 @@ img {
   font-size: 12px;
   opacity: 0.38;
 }
-.content .content-center .center-right .password-input {
+.content .content-center .center-right .message {
+  display: inline-block;
   margin-top: 20px;
+  width: 100px;
+  height: 38.4px;
+  line-height: 38.4px;
+  vertical-align: middle;
+}
+.content .content-center .center-right .password-input {
   background: rgba(0, 0, 0, 0.05);
   border-radius: 6.4px;
   border: 1ps solid transparent;
   width: 354px;
   height: 38.4px;
+  display: inline-block;
+  vertical-align: middle;
+  margin-top: 20px;
 }
 .content .content-center .center-right .password-input .input-left {
   float: left;
@@ -262,6 +301,14 @@ img {
   padding: 0 12.8px;
   vertical-align: middle;
 }
+.content .content-center .center-right .password {
+  display: inline-block;
+  margin-top: 20px;
+  width: 100px;
+  height: 38.4px;
+  line-height: 38.4px;
+  vertical-align: middle;
+}
 .content .content-center .center-right .password2-input {
   margin-top: 20px;
   background: rgba(0, 0, 0, 0.05);
@@ -269,6 +316,8 @@ img {
   border: 1ps solid transparent;
   width: 354px;
   height: 38.4px;
+  display: inline-block;
+  vertical-align: middle;
 }
 .content .content-center .center-right .password2-input .input-left {
   float: left;
@@ -293,6 +342,13 @@ img {
   width: 19.2px;
   height: 19.2px;
   padding: 0 12.8px;
+  vertical-align: middle;
+}
+.content .content-center .center-right .checkPass {
+  display: inline-block;
+  margin-top: 20px;
+  height: 38.4px;
+  line-height: 38.4px;
   vertical-align: middle;
 }
 .content .content-center .center-right .birthDate {

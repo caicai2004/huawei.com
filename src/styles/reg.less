@@ -106,16 +106,22 @@ img{
         .center-right{
             float:left;
             margin:0 auto;
-            padding-top:48px;
-            padding-left:108px;
+            width:582px;
+            
+            margin-top:48px;
+            margin-left:108px;
+           
+            // background: pink;
           
             h1{
+                width:354px;
                 font-size:25.6px;
                 color:#191919;
                 font-weight:normal;
                 text-align:center;
             }
             h2{
+                width:354px;
                 font-weight:normal;
                 font-size:14.4px;
                 text-align:center;
@@ -127,13 +133,15 @@ img{
             }
         /*--------------chooseCountry------------------*/     
         .chooseCountry{
-           margin-top:48px;
-           background: rgba(0, 0, 0, 0.05);
+            
+                margin-top:50px;
+                background: rgba(0, 0, 0, 0.05);
                 border-radius: 6.4px;
                 border:1ps solid transparent;
                 width:354px;
                 height:38.4px;
-
+                display: inline-block;
+                vertical-align: middle;    
                 /*左边输入*/
                 .input-left{
                     float:left;
@@ -168,15 +176,30 @@ img{
                         }
                     }
                 }
+        .Country{     
+            display: inline-block;
+            margin-top:40px;
+    
+            // vertical-align: middle;
+            width:100px;
+            height:38.4px;
+            line-height:38.4px;
+            // background: green;
+            vertical-align: middle;
+           
+     
+            
+        }        
         /*--------------phoneInput------------------*/ 
         .phoneInput{
-            margin-top:20px;
             background: rgba(0, 0, 0, 0.05);
             border-radius: 6.4px;
             border:1ps solid transparent;
             width:354px;
             height:38.4px;
-
+            display: inline-block;
+            vertical-align: middle;  
+            margin-top:20px;
             .input-left{
                 float:left;
                 line-height:38.4px;
@@ -217,17 +240,33 @@ img{
                     line-height:38.4px;
                     font-size:12px;
                 }
-            }
-            
+                .phone{
+                    clear:both;
+                    float:left;
+                }
+            } 
         }
+        .phone{     
+            display: inline-block;
+            margin-top:20px;
+            // vertical-align: middle;
+            width:100px;
+            height:38.4px;
+            line-height:38.4px;
+            vertical-align: middle;
+            // background: green;
+        } 
+
         /*---------msg-input------------*/ 
         .msg-input{
-            margin-top:20px;
             background: rgba(0, 0, 0, 0.05);
             border-radius: 6.4px;
             border:1ps solid transparent;
             width:354px;
             height:38.4px;
+            display: inline-block;
+            vertical-align: middle; 
+            margin-top:20px;
             .input-left{
                 float:left;
                 line-height:38.4px;
@@ -257,15 +296,27 @@ img{
             }
 
         }
+        .message{     
+            display: inline-block;
+            margin-top:20px;
+            // vertical-align: middle;
+            width:100px;
+            height:38.4px;
+            line-height:38.4px;
+            vertical-align: middle;
+            // background: green;
+        } 
 
         /*-------------password------------------*/ 
         .password-input{
-            margin-top:20px;
             background: rgba(0, 0, 0, 0.05);
             border-radius: 6.4px;
             border:1ps solid transparent;
             width:354px;
             height:38.4px;
+            display:inline-block;
+            vertical-align: middle;
+            margin-top:20px;
             .input-left{
                 float:left;
                 line-height:38.4px;
@@ -295,6 +346,16 @@ img{
                 }
             }
 
+        } 
+        .password{     
+            display: inline-block;
+            margin-top:20px;
+            vertical-align: middle;
+            width:100px;
+            height:38.4px;
+            line-height:38.4px;
+            vertical-align: middle;
+            // background: green;
         }  
 
         /*-------------password2------------------*/ 
@@ -305,6 +366,8 @@ img{
             border:1ps solid transparent;
             width:354px;
             height:38.4px;
+            display: inline-block;
+            vertical-align: middle;
             .input-left{
                 float:left;
                 line-height:38.4px;
@@ -334,7 +397,19 @@ img{
                 }
             }
 
+        } 
+        .checkPass{     
+            display: inline-block;
+            margin-top:20px;
+            // vertical-align: middle;
+            // width:100px;
+            height:38.4px;
+            line-height:38.4px;
+            vertical-align: middle;
+            // background: green;
         }  
+        
+        
 
         /*-------------出生日期------------------*/ 
         .birthDate{
